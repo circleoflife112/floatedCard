@@ -38,8 +38,6 @@ header {
 .title2,
 .user-id {
   color: var(--title-color);
-  line-height: 100%;
-  /* letter-spacing: 0; */
   align-items: center;
 }
 
@@ -50,6 +48,7 @@ header {
 
 .user-id {
   font-size: var(--font-size);
+  color: var(--text-color);
 }
 
 main {
@@ -90,7 +89,7 @@ main {
 button {
   width: 70px;
   font-size: 14px;
-  padding: 0;
+  padding-left: 0;
   text-decoration: underline;
   /* border: solid 1px red; */
   float: left;
